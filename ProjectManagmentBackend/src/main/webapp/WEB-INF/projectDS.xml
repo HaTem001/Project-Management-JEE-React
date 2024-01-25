@@ -1,0 +1,13 @@
+<datasources>
+    <datasource jndi-name="java:/ProjectsDS"
+                pool-name="ProjectsDS_Pool"
+                enabled="true"
+                use-java-context="true">
+        <connection-url>jdbc:mysql://localhost:3306/BD_ProjecMaNAGMENT</connection-url>
+        <driver>mysql</driver>
+        <security>
+            <user-name>root</user-name>
+            
+        </security>
+    </datasource>
+</datasources>

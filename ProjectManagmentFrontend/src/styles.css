@@ -1,0 +1,30 @@
+/* styles.css */
+
+.project-frame {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #3884c7;
+  }
+  
+  .button-delete {
+    background-color: #e74c3c;
+  }
+  
+  .button-delete:hover {
+    background-color: #c0392b;
+  }
+  
