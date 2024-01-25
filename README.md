@@ -20,7 +20,7 @@ A miniature part of a JEE application that can help planning projects by creatin
         project also have a unique code, description, start date, and end date.
         
 ## System Architecture
-
+```
 ├───ProjectManagmentBackend
 │   ├───.settings
 │   ├───build
@@ -53,7 +53,7 @@ A miniature part of a JEE application that can help planning projects by creatin
     │   └───images
     └───src
         └───components
-
+```
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine.
@@ -66,14 +66,14 @@ Follow these instructions to get the project up and running on your local machin
 
 ### Installation
 
--Clone the repository to your local machine using git clone command 
--Install the necessary Node.js packages using npm install
+-Clone the repository to your local machine using git clone command.
+-Install the necessary Node.js packages using npm install.
 
 Configuration
 
   Frontend : 
 
-    Ensure you have Mui (Material UI : React components ) installed using "npm install @mui/material @emotion/react @emotion/styled" command
+    Ensure you have Mui (Material UI : React components ) installed using "npm install @mui/material @emotion/react @emotion/styled" command.
   
   Backend :
 
