@@ -1,4 +1,4 @@
-"# Project-Management-JEE-React" 
+Project Management App JEE-React
 
 A miniature part of a JEE application that can help planning projects by creating tasks. Frontend is developped using React.
 
@@ -22,17 +22,10 @@ A miniature part of a JEE application that can help planning projects by creatin
 ## System Architecture
 ```
 ├───ProjectManagmentBackend
-│   ├───.settings
-│   ├───build
-│   │   └───classes
-│   │       ├───com
-│   │       │   └───enit
-│   │       │       └───BackManagment
-│   │       │           ├───business
-│   │       │           │   └───impl
-│   │       │           ├───entity
-│   │       │           └───webservice
-│   │       └───META-INF
+.   .
+.   .
+.   .
+│   │
 │   └───src
 │       └───main
 │           ├───java
@@ -40,19 +33,78 @@ A miniature part of a JEE application that can help planning projects by creatin
 │           │   │   └───enit
 │           │   │       └───BackManagment
 │           │   │           ├───business
+│           │   │           │   │   ProjectDAO.java
+│           │   │           │   │   TaskDAO.java
+│           │   │           │   │
 │           │   │           │   └───impl
+│           │   │           │           ProjectDAOImpl.java
+│           │   │           │           TaskDAOImpl.java
+│           │   │           │
 │           │   │           ├───entity
+│           │   │           │       DateAdapter.java
+│           │   │           │       Project.java
+│           │   │           │       ProjectIdGenerator.java
+│           │   │           │       Task.java
+│           │   │           │
 │           │   │           └───webservice
+│           │   │                   ProjectRestApp.java
+│           │   │                   ProjectRestServices.java
+│           │   │                   TaskRestApp.java
+│           │   │                   TaskRestServices.java
+│           │   │
 │           │   └───META-INF
+│           │           persistence.xml
+│           │
 │           └───webapp
 │               ├───META-INF
+│               │       MANIFEST.MF
+│               │
 │               └───WEB-INF
+│                   │   projectDS.xml
+│                   │   web.xml
+│                   │
 │                   └───lib
 └───ProjectManagmentFrontend
+    │   .gitignore
+    │   package-lock.json
+    │   package.json
+    │   postcss.config.js
+    │   README.md
+    │
     ├───public
+    │   │   favicon.ico
+    │   │   index.html
+    │   │   logo192.png
+    │   │   logo512.png
+    │   │   manifest.json
+    │   │   robots.txt
+    │   │
     │   └───images
+    │           image1.jpg
+    │           image2.jpg
+    │
     └───src
+        │   App.css
+        │   App.js
+        │   App.test.js
+        │   index.css
+        │   index.js
+        │   logo.svg
+        │   reportWebVitals.js
+        │   setupTests.js
+        │   styles.css
+        │
         └───components
+                AddProject.js
+                AddTask.js
+                DeleteProject.js
+                DeleteTask.js
+                navbar.js
+                ProjectsList.js
+                TasksList.js
+                UpdateProject.js
+                UpdateTask.js
+
 ```
 ## Getting Started
 
