@@ -121,7 +121,7 @@ Follow these instructions to get the project up and running on your local machin
 -Clone the repository to your local machine using git clone command.
 -Install the necessary Node.js packages using npm install.
 
-Configuration
+### Configuration
 
   Frontend : 
 
@@ -138,6 +138,6 @@ Configuration
   
     Set up a MySQL database and configure the connection settings in the backend as mentioned earlier.
     
-Contributing
+### Contributing
 
     If you'd like to contribute, please fork the repository and create a pull request. All contributions are welcome!
