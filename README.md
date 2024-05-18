@@ -2,9 +2,11 @@ Project Management App JEE-React
 
 A miniature part of a JEE application that can help planning projects by creating tasks. Frontend is developped using React.
 
+
 ## Table of Contents
 
 - [Description](#description)
+- [Screenshot](#screenshot)
 - [System Architecture](#system-architecture)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -18,6 +20,9 @@ A miniature part of a JEE application that can help planning projects by creatin
         as well as add tasks to these projects. Project attributes include a
         unique code, description, and start date. Tasks associated with a
         project also have a unique code, description, start date, and end date.
+        
+## Screenshot
+![Project Screenshot](img1.jpg)
         
 ## System Architecture
 ```
